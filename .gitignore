@@ -1,0 +1,21 @@
+# Pièces justificatives et originaux (données personnelles, financières, santé)
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.docx
+*.xlsx
+documents/
+
+# Transcriptions brutes (contiennent l'intégralité des échanges)
+suivi/*_raw.json
+
+# Fichiers temporaires, dépendances locales et caches
+tmp/
+__pycache__/
+*.pyc
+.venv/
+
+# Outils locaux
+.kilo/
+graphify-out/
